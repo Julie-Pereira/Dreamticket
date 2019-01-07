@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42DEE2F2D798FAD41A22C0D5 /* Pods_dreamticket_php.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5DC17A8DB2E0091F904FFB /* Pods_dreamticket_php.framework */; };
+		7DCCC1C15B8DC262A66147AF /* Pods_dreamticket_phpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF2DEC991AFF9D56A7EF34D /* Pods_dreamticket_phpUITests.framework */; };
+		8B1F742321B76EB900D7E12B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F742221B76EB900D7E12B /* AppDelegate.swift */; };
+		8B1F742821B76EB900D7E12B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1F742621B76EB900D7E12B /* Main.storyboard */; };
+		8B1F742A21B76EB900D7E12B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1F742921B76EB900D7E12B /* Assets.xcassets */; };
+		8B1F742D21B76EB900D7E12B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1F742B21B76EB900D7E12B /* LaunchScreen.storyboard */; };
+		8B1F743821B76EBA00D7E12B /* dreamticket_phpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F743721B76EBA00D7E12B /* dreamticket_phpTests.swift */; };
+		8B1F744321B76EBA00D7E12B /* dreamticket_phpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F744221B76EBA00D7E12B /* dreamticket_phpUITests.swift */; };
+		8B34B83021BC39DD006387F6 /* CreateTicketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B34B82F21BC39DC006387F6 /* CreateTicketController.swift */; };
+		8B649A2F21B9B7A900D57AF7 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B649A2E21B9B7A900D57AF7 /* HomeController.swift */; };
+		8BB9F26C21BB251D00306608 /* ConnectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB9F26B21BB251D00306608 /* ConnectionController.swift */; };
+		8BFE354921BB33E800175206 /* SigninController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE354821BB33E800175206 /* SigninController.swift */; };
+		D90F104A1DB299D913018BD6 /* Pods_dreamticket_phpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A442C5D3AFAE8471BB8FB6 /* Pods_dreamticket_phpTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B1F743421B76EBA00D7E12B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B1F741721B76EB900D7E12B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B1F741E21B76EB900D7E12B;
+			remoteInfo = "dreamticket-php";
+		};
+		8B1F743F21B76EBA00D7E12B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B1F741721B76EB900D7E12B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B1F741E21B76EB900D7E12B;
+			remoteInfo = "dreamticket-php";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05A442C5D3AFAE8471BB8FB6 /* Pods_dreamticket_phpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dreamticket_phpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1315AB55422A9F6D5F2418A6 /* Pods-dreamticket-php.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dreamticket-php.release.xcconfig"; path = "Pods/Target Support Files/Pods-dreamticket-php/Pods-dreamticket-php.release.xcconfig"; sourceTree = "<group>"; };
+		60F1660849CAF0AEA5946CC5 /* Pods-dreamticket-phpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dreamticket-phpUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dreamticket-phpUITests/Pods-dreamticket-phpUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F28F0E4A5C371A66744F823 /* Pods-dreamticket-phpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dreamticket-phpUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dreamticket-phpUITests/Pods-dreamticket-phpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B1F741F21B76EB900D7E12B /* dreamticket-php.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dreamticket-php.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1F742221B76EB900D7E12B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B1F742721B76EB900D7E12B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B1F742921B76EB900D7E12B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B1F742C21B76EB900D7E12B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B1F742E21B76EB900D7E12B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B1F743321B76EBA00D7E12B /* dreamticket-phpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dreamticket-phpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1F743721B76EBA00D7E12B /* dreamticket_phpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dreamticket_phpTests.swift; sourceTree = "<group>"; };
+		8B1F743921B76EBA00D7E12B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B1F743E21B76EBA00D7E12B /* dreamticket-phpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dreamticket-phpUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1F744221B76EBA00D7E12B /* dreamticket_phpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dreamticket_phpUITests.swift; sourceTree = "<group>"; };
+		8B1F744421B76EBA00D7E12B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B34B82F21BC39DC006387F6 /* CreateTicketController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTicketController.swift; sourceTree = "<group>"; };
+		8B649A2E21B9B7A900D57AF7 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		8BB9F26B21BB251D00306608 /* ConnectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionController.swift; sourceTree = "<group>"; };
+		8BFE354821BB33E800175206 /* SigninController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninController.swift; sourceTree = "<group>"; };
+		8FF2DEC991AFF9D56A7EF34D /* Pods_dreamticket_phpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dreamticket_phpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61D3589E14204082D24D67D /* Pods-dreamticket-phpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dreamticket-phpTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dreamticket-phpTests/Pods-dreamticket-phpTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB5DC17A8DB2E0091F904FFB /* Pods_dreamticket_php.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dreamticket_php.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF46F67B857795BA2E833A49 /* Pods-dreamticket-php.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dreamticket-php.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dreamticket-php/Pods-dreamticket-php.debug.xcconfig"; sourceTree = "<group>"; };
+		E22D318FA8612653E9FAA5DA /* Pods-dreamticket-phpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dreamticket-phpTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dreamticket-phpTests/Pods-dreamticket-phpTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B1F741C21B76EB900D7E12B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DEE2F2D798FAD41A22C0D5 /* Pods_dreamticket_php.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1F743021B76EBA00D7E12B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90F104A1DB299D913018BD6 /* Pods_dreamticket_phpTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1F743B21B76EBA00D7E12B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DCCC1C15B8DC262A66147AF /* Pods_dreamticket_phpUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		121D770B980B7930CFA12902 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF46F67B857795BA2E833A49 /* Pods-dreamticket-php.debug.xcconfig */,
+				1315AB55422A9F6D5F2418A6 /* Pods-dreamticket-php.release.xcconfig */,
+				E22D318FA8612653E9FAA5DA /* Pods-dreamticket-phpTests.debug.xcconfig */,
+				B61D3589E14204082D24D67D /* Pods-dreamticket-phpTests.release.xcconfig */,
+				6F28F0E4A5C371A66744F823 /* Pods-dreamticket-phpUITests.debug.xcconfig */,
+				60F1660849CAF0AEA5946CC5 /* Pods-dreamticket-phpUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B1F741621B76EB900D7E12B = {
+			isa = PBXGroup;
+			children = (
+				8B1F742121B76EB900D7E12B /* dreamticket-php */,
+				8B1F743621B76EBA00D7E12B /* dreamticket-phpTests */,
+				8B1F744121B76EBA00D7E12B /* dreamticket-phpUITests */,
+				8B1F742021B76EB900D7E12B /* Products */,
+				121D770B980B7930CFA12902 /* Pods */,
+				8D4862DCDC98225491C573DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B1F742021B76EB900D7E12B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B1F741F21B76EB900D7E12B /* dreamticket-php.app */,
+				8B1F743321B76EBA00D7E12B /* dreamticket-phpTests.xctest */,
+				8B1F743E21B76EBA00D7E12B /* dreamticket-phpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B1F742121B76EB900D7E12B /* dreamticket-php */ = {
+			isa = PBXGroup;
+			children = (
+				8B1F742221B76EB900D7E12B /* AppDelegate.swift */,
+				8B649A2E21B9B7A900D57AF7 /* HomeController.swift */,
+				8BB9F26B21BB251D00306608 /* ConnectionController.swift */,
+				8B34B82F21BC39DC006387F6 /* CreateTicketController.swift */,
+				8BFE354821BB33E800175206 /* SigninController.swift */,
+				8B1F742621B76EB900D7E12B /* Main.storyboard */,
+				8B1F742921B76EB900D7E12B /* Assets.xcassets */,
+				8B1F742B21B76EB900D7E12B /* LaunchScreen.storyboard */,
+				8B1F742E21B76EB900D7E12B /* Info.plist */,
+			);
+			path = "dreamticket-php";
+			sourceTree = "<group>";
+		};
+		8B1F743621B76EBA00D7E12B /* dreamticket-phpTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B1F743721B76EBA00D7E12B /* dreamticket_phpTests.swift */,
+				8B1F743921B76EBA00D7E12B /* Info.plist */,
+			);
+			path = "dreamticket-phpTests";
+			sourceTree = "<group>";
+		};
+		8B1F744121B76EBA00D7E12B /* dreamticket-phpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B1F744221B76EBA00D7E12B /* dreamticket_phpUITests.swift */,
+				8B1F744421B76EBA00D7E12B /* Info.plist */,
+			);
+			path = "dreamticket-phpUITests";
+			sourceTree = "<group>";
+		};
+		8D4862DCDC98225491C573DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB5DC17A8DB2E0091F904FFB /* Pods_dreamticket_php.framework */,
+				05A442C5D3AFAE8471BB8FB6 /* Pods_dreamticket_phpTests.framework */,
+				8FF2DEC991AFF9D56A7EF34D /* Pods_dreamticket_phpUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B1F741E21B76EB900D7E12B /* dreamticket-php */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B1F744721B76EBA00D7E12B /* Build configuration list for PBXNativeTarget "dreamticket-php" */;
+			buildPhases = (
+				EDAF6DFC136640CABE519E43 /* [CP] Check Pods Manifest.lock */,
+				8B1F741B21B76EB900D7E12B /* Sources */,
+				8B1F741C21B76EB900D7E12B /* Frameworks */,
+				8B1F741D21B76EB900D7E12B /* Resources */,
+				BA3785BFC1201E2CA5A315DC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dreamticket-php";
+			productName = "dreamticket-php";
+			productReference = 8B1F741F21B76EB900D7E12B /* dreamticket-php.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B1F743221B76EBA00D7E12B /* dreamticket-phpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B1F744A21B76EBA00D7E12B /* Build configuration list for PBXNativeTarget "dreamticket-phpTests" */;
+			buildPhases = (
+				E3BF9732DA66CA9BDCA779DD /* [CP] Check Pods Manifest.lock */,
+				8B1F742F21B76EBA00D7E12B /* Sources */,
+				8B1F743021B76EBA00D7E12B /* Frameworks */,
+				8B1F743121B76EBA00D7E12B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B1F743521B76EBA00D7E12B /* PBXTargetDependency */,
+			);
+			name = "dreamticket-phpTests";
+			productName = "dreamticket-phpTests";
+			productReference = 8B1F743321B76EBA00D7E12B /* dreamticket-phpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B1F743D21B76EBA00D7E12B /* dreamticket-phpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B1F744D21B76EBA00D7E12B /* Build configuration list for PBXNativeTarget "dreamticket-phpUITests" */;
+			buildPhases = (
+				C2F80D0E3584F31E33833FC0 /* [CP] Check Pods Manifest.lock */,
+				8B1F743A21B76EBA00D7E12B /* Sources */,
+				8B1F743B21B76EBA00D7E12B /* Frameworks */,
+				8B1F743C21B76EBA00D7E12B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B1F744021B76EBA00D7E12B /* PBXTargetDependency */,
+			);
+			name = "dreamticket-phpUITests";
+			productName = "dreamticket-phpUITests";
+			productReference = 8B1F743E21B76EBA00D7E12B /* dreamticket-phpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B1F741721B76EB900D7E12B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Developer;
+				TargetAttributes = {
+					8B1F741E21B76EB900D7E12B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					8B1F743221B76EBA00D7E12B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B1F741E21B76EB900D7E12B;
+					};
+					8B1F743D21B76EBA00D7E12B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B1F741E21B76EB900D7E12B;
+					};
+				};
+			};
+			buildConfigurationList = 8B1F741A21B76EB900D7E12B /* Build configuration list for PBXProject "dreamticket-php" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B1F741621B76EB900D7E12B;
+			productRefGroup = 8B1F742021B76EB900D7E12B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B1F741E21B76EB900D7E12B /* dreamticket-php */,
+				8B1F743221B76EBA00D7E12B /* dreamticket-phpTests */,
+				8B1F743D21B76EBA00D7E12B /* dreamticket-phpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B1F741D21B76EB900D7E12B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1F742D21B76EB900D7E12B /* LaunchScreen.storyboard in Resources */,
+				8B1F742A21B76EB900D7E12B /* Assets.xcassets in Resources */,
+				8B1F742821B76EB900D7E12B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1F743121B76EBA00D7E12B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1F743C21B76EBA00D7E12B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA3785BFC1201E2CA5A315DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-dreamticket-php/Pods-dreamticket-php-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dreamticket-php/Pods-dreamticket-php-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2F80D0E3584F31E33833FC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dreamticket-phpUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3BF9732DA66CA9BDCA779DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dreamticket-phpTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDAF6DFC136640CABE519E43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dreamticket-php-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B1F741B21B76EB900D7E12B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B34B83021BC39DD006387F6 /* CreateTicketController.swift in Sources */,
+				8BB9F26C21BB251D00306608 /* ConnectionController.swift in Sources */,
+				8BFE354921BB33E800175206 /* SigninController.swift in Sources */,
+				8B1F742321B76EB900D7E12B /* AppDelegate.swift in Sources */,
+				8B649A2F21B9B7A900D57AF7 /* HomeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1F742F21B76EBA00D7E12B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1F743821B76EBA00D7E12B /* dreamticket_phpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1F743A21B76EBA00D7E12B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1F744321B76EBA00D7E12B /* dreamticket_phpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B1F743521B76EBA00D7E12B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B1F741E21B76EB900D7E12B /* dreamticket-php */;
+			targetProxy = 8B1F743421B76EBA00D7E12B /* PBXContainerItemProxy */;
+		};
+		8B1F744021B76EBA00D7E12B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B1F741E21B76EB900D7E12B /* dreamticket-php */;
+			targetProxy = 8B1F743F21B76EBA00D7E12B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B1F742621B76EB900D7E12B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B1F742721B76EB900D7E12B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B1F742B21B76EB900D7E12B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B1F742C21B76EB900D7E12B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B1F744521B76EBA00D7E12B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B1F744621B76EBA00D7E12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B1F744821B76EBA00D7E12B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF46F67B857795BA2E833A49 /* Pods-dreamticket-php.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dreamticket-php/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ynov.dreamticket-php";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B1F744921B76EBA00D7E12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1315AB55422A9F6D5F2418A6 /* Pods-dreamticket-php.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dreamticket-php/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ynov.dreamticket-php";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B1F744B21B76EBA00D7E12B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22D318FA8612653E9FAA5DA /* Pods-dreamticket-phpTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dreamticket-phpTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ynov.dreamticket-phpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dreamticket-php.app/dreamticket-php";
+			};
+			name = Debug;
+		};
+		8B1F744C21B76EBA00D7E12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B61D3589E14204082D24D67D /* Pods-dreamticket-phpTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dreamticket-phpTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ynov.dreamticket-phpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dreamticket-php.app/dreamticket-php";
+			};
+			name = Release;
+		};
+		8B1F744E21B76EBA00D7E12B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F28F0E4A5C371A66744F823 /* Pods-dreamticket-phpUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dreamticket-phpUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ynov.dreamticket-phpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dreamticket-php";
+			};
+			name = Debug;
+		};
+		8B1F744F21B76EBA00D7E12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F1660849CAF0AEA5946CC5 /* Pods-dreamticket-phpUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dreamticket-phpUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ynov.dreamticket-phpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dreamticket-php";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B1F741A21B76EB900D7E12B /* Build configuration list for PBXProject "dreamticket-php" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1F744521B76EBA00D7E12B /* Debug */,
+				8B1F744621B76EBA00D7E12B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B1F744721B76EBA00D7E12B /* Build configuration list for PBXNativeTarget "dreamticket-php" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1F744821B76EBA00D7E12B /* Debug */,
+				8B1F744921B76EBA00D7E12B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B1F744A21B76EBA00D7E12B /* Build configuration list for PBXNativeTarget "dreamticket-phpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1F744B21B76EBA00D7E12B /* Debug */,
+				8B1F744C21B76EBA00D7E12B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B1F744D21B76EBA00D7E12B /* Build configuration list for PBXNativeTarget "dreamticket-phpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1F744E21B76EBA00D7E12B /* Debug */,
+				8B1F744F21B76EBA00D7E12B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B1F741721B76EB900D7E12B /* Project object */;
+}
